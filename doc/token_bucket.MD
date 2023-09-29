@@ -1,0 +1,3 @@
+- The ```TokenBucket``` class has a constructor (```__init__```) that initializes the bucket with a certain capacity, fill rate, and initially filled with tokens.
+- The ```try_consume``` method attempts to consume a specified number of tokens from the bucket, returning True if successful and False if there are not enough tokens.
+- The ```refill_tokens``` method is a helper method that refills the token bucket at the specified fill rate, based on the amount of time that has passed since the last refill.
